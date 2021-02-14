@@ -187,7 +187,7 @@ rule-providers:
 
   telegramcidr:
     type: http
-    behavior: ipcidr
+    behavior: domain
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml"
     path: ./ruleset/Telegram.yaml
     interval: 86400
@@ -195,35 +195,35 @@ rule-providers:
 
   spotify:
     type: http
-    behavior: ipcidr
+    behavior: domain
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Spotify.yaml"
     path: ./ruleset/Spotify.yaml
     interval: 86400
 
   youtube:
     type: http
-    behavior: ipcidr
+    behavior: domain
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml"
     path: ./ruleset/YouTube.yaml
     interval: 86400
   
   adlite2:
     type: http
-    behavior: ipcidr
+    behavior: domain
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml"
     path: ./ruleset/BanEasyListChina.yaml.yaml
     interval: 86400    
   
   adlite3:
     type: http
-    behavior: ipcidr
+    behavior: domain
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyPrivacy.yaml"
     path: ./ruleset/BanEasyPrivacy.yaml.yaml
     interval: 86400
 
   adlite4:
     type: http
-    behavior: ipcidr
+    behavior: domain
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml"
     path: ./ruleset/BanProgramAD.yaml
     interval: 86400
