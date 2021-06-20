@@ -1,6 +1,28 @@
 # https://raw.githubusercontent.com/CareyWang/Rules/master/RuleSet/Media/netease.list
 # https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic/blob/master/Clash/UnblockNeteaseMusic.yaml
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NetEaseMusic/NetEaseMusic.list(iOS ERROR)
 # > NeteaseMusic
+
+DOMAIN,admusicpic.music.126.net
+DOMAIN,iadmat.nosdn.127.net
+DOMAIN,iadmusicmat.music.126.net
+DOMAIN,iadmusicmatvideo.music.126.net
+DOMAIN,netease.ugcvideoss.ourdvs.com
+DOMAIN,p1.music.126.net
+DOMAIN,p10.music.126.net
+DOMAIN,p2.music.126.net
+DOMAIN,p5.music.126.net
+DOMAIN,p6.music.126.net
+DOMAIN,p7.music.126.net
+DOMAIN,p8.music.126.net
+DOMAIN,p9.music.126.net
+DOMAIN-SUFFIX,163yun.com
+DOMAIN-SUFFIX,hz.netease.com
+DOMAIN-SUFFIX,mam.netease.com
+DOMAIN-SUFFIX,music.126.com
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,music.163.com.163jiasu.com
 
 DOMAIN,api.iplay.163.com
 DOMAIN,apm3.music.163.com
